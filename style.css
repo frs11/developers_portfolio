@@ -13,21 +13,56 @@ section{
 }
 
 h1{
-    font-size: 3vw;
+    font-size: 40px;
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
-
+h3{
+    font-weight: 500;
+}
+p{
+    font-size: 15px;
+}
+.grey-text{
+    color: grey;
+}
+#name{
+    font-weight: 900;
+    color: #ec4f8f;
+}
 .half-width{
-    width: 50%;
+    width: 40%;
     height: 55vh;
     display: block;
     float: left;
     justify-content: center;
+    padding: 3% 5% 2% 5%;
 
 }
 .half-width img{
-    width: 50%;
-    height: 50vh;
+    max-width: 80%;
+    height: auto;
+}
+.extra-padding{
+    padding: 5% 3% 2% 4%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #ec4f8f;
+}
+.bio-image{
+    position: relative;
+}
+.bio-image img{
+    position: absolute;
+    right: 0;
+    max-width: 60%;
+    height: auto;
+   
 }
 .latest-work-images{
     display: flex;
@@ -36,30 +71,47 @@ h1{
     padding: 0 5% 0 5%;
 }
 .latest-work-images img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 .introduction-section{
     background-image: url(images/header-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .Biaography-section{
     background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .latest-work-section{
     background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 .feedback-section{
     background-image: url(images/footer-bg.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding-bottom: 20vh;
+    /* padding-bottom: 20px; */
 }
 .centralized-items{
-    padding: 5% 35%;
+    padding: 1% 35%;
 }
-/* .pink-box{
-    border: 2px solid red;
-} */
-
+.pink-box{
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #ec4f8f;
+    margin: 1% 25% 1% 25%;
+    padding: 2% 10% 2% 10%;
+}
+#mail-info{
+    font-size: larger;
+    font-weight: 600;
+}
 
 
 
@@ -68,5 +120,5 @@ h1{
 footer{
     color: gray;
     text-align: center;
-    padding: 4vh;
+    padding: 2%;
 }
